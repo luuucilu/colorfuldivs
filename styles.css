@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;800&display=swap');
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: 'Mukta', sans-serif;
+}
+
+.main-wrapper {
+    min-height: 50vh;
+}
+
+.main-header{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.main-header .about{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+
+    display: flex;
+    align-self: center;
+
+}
+
+.main-wrapper .main-header .text-div {
+    margin-left: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main-header .contact {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    
+    display: flex;
+    align-self: center;
+}
+
+.main-header .text-div .beer{ 
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.main-header .bird-wrapper{
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.main-header .bird {
+    font-size: 20px;
+    
+    
+    flex-direction: row;
+    display: flex;
+    align-self: center;
+}
+
+.div-container{
+    width: 100%;
+    min-height: 92.8vh;
+    display: flex;
+    color: #444444;
+    background-color: brown;
+}
+
+.div-container .color-div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-container .color-div:nth-of-type(1) {
+    background-color: #ff9aa2;
+}
+
+.div-container .color-div:nth-of-type(2) {
+    background-color: #ffb7b2;
+}
+
+.div-container .color-div:nth-of-type(3) {
+    background-color: #ffdac1;
+}
+
+.div-container .color-div:nth-of-type(4) {
+    background-color: #e2f0cb;
+}
+
+.div-container .color-div:nth-of-type(5) {
+    background-color: #c7ceea;
+}
+
+.p-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.p-lorem {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+    
+    
+}
