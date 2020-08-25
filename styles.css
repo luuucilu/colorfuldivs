@@ -32,7 +32,6 @@ body {
 }
 
 .main-wrapper .main-header .text-div {
-    margin-left: auto;
     display: flex;
     justify-content: center;
 }
@@ -56,14 +55,9 @@ body {
     justify-content: center;
 }
 
-.main-header .bird-wrapper{
-    display: flex;
-    align-self: flex-end;
-    flex-direction: row;
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    
+.main-header .bird{
+    right: 20px; 
+    position: absolute;
     font-size: 20px;
 }
 
@@ -126,4 +120,14 @@ body {
     justify-content: center;
     align-items: flex-end;
     padding: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .div-container {
+        flex-direction: column;
+    }
+
+    .articles-wrapper .article {
+        width: 100%;
+    }
 }
